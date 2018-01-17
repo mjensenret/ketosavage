@@ -95,8 +95,6 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="DataConnection\DALContext.cs" />
-    <Compile Include="Entity\Accounts\AccountModels.cs" />
-    <Compile Include="Entity\Accounts\IdentityModels.cs" />
     <Compile Include="Entity\Customer\Customer_PersonalDetails.cs" />
     <Compile Include="Entity\Users.cs" />
     <Compile Include="Migrations\201801172048272_InitialCreate.cs" />
@@ -111,6 +109,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Entity\Accounts\" />
     <Folder Include="Identity\" />
   </ItemGroup>
   <ItemGroup>
