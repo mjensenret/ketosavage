@@ -1,1 +1,1 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="DXKetoSavage.MvcApplication" Language="C#" %>
+<%@ Application Codebehind="Global.asax.cs" Inherits="KetoSavageWeb.MvcApplication" Language="C#" %>

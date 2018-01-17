@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace DXKetoSavage.Models {
+namespace KetoSavageWeb.Models {
         public class UsersContext : DbContext {
         public UsersContext()
             : base("DefaultConnection") {

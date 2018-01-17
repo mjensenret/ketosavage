@@ -1,5 +1,5 @@
 @{ Layout = "~/Views/Shared/_lightLayout.cshtml"; }
-@model DXKetoSavage.Models.LoginModel
+@model KetoSavageWeb.Models.LoginModel
 <div class="accountHeader">
     <h2>Log In</h2>
     <p>
@@ -47,4 +47,4 @@
 @Html.ActionLink("Forgot your password?", "ForgotPassword")
 *@
 <br />
-@Html.Partial("_ExternalLoginsListPartial", new DXKetoSavage.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+@Html.Partial("_ExternalLoginsListPartial", new KetoSavageWeb.Models.ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })

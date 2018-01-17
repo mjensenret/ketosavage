@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using DXKetoSavage.Models;
+using KetoSavageWeb.Models;
 
-namespace DXKetoSavage.Controllers
+namespace KetoSavageWeb.Controllers
 {
     public class HomeController : Controller
     {

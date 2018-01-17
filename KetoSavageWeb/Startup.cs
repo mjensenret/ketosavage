@@ -1,11 +1,11 @@
 using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartup(typeof(DXKetoSavage.Startup))]
+[assembly: OwinStartup(typeof(KetoSavageWeb.Startup))]
 
 // Files related to ASP.NET Identity duplicate the Microsoft ASP.NET Identity file structure and contain initial Microsoft comments.
 
-namespace DXKetoSavage
+namespace KetoSavageWeb
 {
     public partial class Startup
     {

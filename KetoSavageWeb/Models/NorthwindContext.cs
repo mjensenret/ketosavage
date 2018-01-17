@@ -1,7 +1,7 @@
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration;
 
-namespace DXKetoSavage.Models {
+namespace KetoSavageWeb.Models {
     public partial class NorthwindContext : DbContext {
         static NorthwindContext() {
             Database.SetInitializer<NorthwindContext>(null);

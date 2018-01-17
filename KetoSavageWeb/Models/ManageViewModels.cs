@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 using Microsoft.Owin.Security;
 
-namespace DXKetoSavage.Models
+namespace KetoSavageWeb.Models
 {
     public class IndexViewModel
     {

@@ -1,7 +1,7 @@
 using System.Web;
 using System.Web.Mvc;
 
-namespace DXKetoSavage {
+namespace KetoSavageWeb {
     public class FilterConfig {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters) {
             filters.Add(new HandleErrorAttribute());

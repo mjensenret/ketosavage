@@ -2,7 +2,7 @@ using System.Linq;
 using System.Web;
 using System.Collections;
 
-namespace DXKetoSavage.Models {
+namespace KetoSavageWeb.Models {
     // DXCOMMENT: Configure a data model (In this sample, we do this in file NorthwindDataProvider.cs. You would better create your custom file for a data model.)
     public static class NorthwindDataProvider {
         const string NorthwindContextKey = "DXNorthwindContext";
